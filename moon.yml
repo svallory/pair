@@ -1,0 +1,7 @@
+# For all tasks in the project
+platform: 'bun'
+language: 'typescript'
+
+tasks:
+  build:
+    command: 'bun run build'

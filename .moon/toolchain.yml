@@ -12,3 +12,6 @@ extends: 'https://raw.githubusercontent.com/svallory/moonrepo-template/master/.m
 
 # Part ways with the template and use the local file
 # extends: './toolchain-base.yml'
+
+bun:
+  inferTasksFromScripts: true

@@ -1,4 +1,11 @@
 {
+  // To override the seetings below:
+  //
+  // 1. Install this extension: swellaby.workspace-config-plus
+  // 2. Create a .vscode/settings.local.json file and
+  // 3. Reload the VS Code window (command: "Developer: Reload Window")
+  // ==========================================================================
+  //
   // < moon config >
   // --------------------------------------------------------------------------
   // Configuration file schemas
@@ -62,6 +69,8 @@
     "*.yml": "${basename}.*.yml"
   },
   // ==========================================================================
-  "references.preferredLocation": "peek",
+  //
+  // Other configs
+  // --------------------------------------------------------------------------
   "typescript.tsdk": "node_modules/typescript/lib",
 }
